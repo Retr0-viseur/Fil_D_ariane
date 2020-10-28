@@ -7,8 +7,8 @@ posX = 1
 posY = 1
 map = [[]] * 100
 
-for value in range(0, 100):
-    map[value] = [0] * 100
+for value in range(0, 150):
+    map[value] = [0] * 150
 
 
 
