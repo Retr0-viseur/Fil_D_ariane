@@ -70,6 +70,9 @@ def down():
         exit(0)
 
 
+def test(x, y):
+    if (map[posY][posX + 1] == 2)
+
 
 dir = []
 
@@ -110,6 +113,11 @@ def algo(value):
         down()
         return
 
+    if (test(posX, posY) == 1):
+        sauvegarde_position()
+        return
+
+    
 
 
 
@@ -147,7 +155,7 @@ map[21][47] = 2
 
 
 for value in range(0, 1000):
-    master.after(value * 100, algo, value)
+    master.after(value * 10, algo, value)
 
 checkered(w,10)
 
