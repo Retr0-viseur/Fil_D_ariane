@@ -70,13 +70,11 @@ def down():
         exit(0)
 
 
-def test(x, y):
-    if (map[posY][posX + 1] == 2)
-
 
 dir = []
 
-def algo(value):
+
+def algo(value, a=0):
     if (map[posY][posX + 1 ] == 2):
         right()
         return
@@ -113,9 +111,6 @@ def algo(value):
         down()
         return
 
-    if (test(posX, posY) == 1):
-        sauvegarde_position()
-        return
 
     
 
