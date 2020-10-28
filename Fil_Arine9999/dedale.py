@@ -74,7 +74,26 @@ def down():
 dir = []
 
 def algo(value):
-    down()
+    if (map[posY][posX + 1 ] == 2):
+        right()
+        return
+    if (map[posY][posX + 1] == 0):
+        dir.append(1)
+        right()
+        return
+    if (map[posY][posX - 1] == 0):
+        dir.append(2)
+        left()
+        return
+    if (map[posY + 1][posX] == 0):
+        dir.append(3)
+        down()
+        return
+    if (map[posY - 1][posX] == 0):
+        dir.append(4)
+        up()
+        return
+    if 
 
 
 
