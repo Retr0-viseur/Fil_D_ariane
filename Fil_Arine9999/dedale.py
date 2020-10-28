@@ -7,8 +7,8 @@ posX = 1
 posY = 1
 map = [[]] * 100
 
-for value in range(0, 150):
-    map[value] = [0] * 150
+for value in range(0, 100):
+    map[value] = [0] * 100
 
 
 
@@ -93,7 +93,22 @@ def algo(value):
         dir.append(4)
         up()
         return
-    if 
+    if (dir[-1] == 1):
+        dir.pop()
+        left()
+        return
+    if (dir[-1] == 2):
+        dir.pop()
+        right()
+        return
+    if (dir[-1] == 3):
+        dir.pop()
+        up()
+        return
+    if (dir[-1] == 4):
+        dir.pop()
+        down()
+        return
 
 
 
