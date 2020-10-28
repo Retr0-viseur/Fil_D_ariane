@@ -127,15 +127,6 @@ w = Canvas(master,
            height=1000)
 
 
-
-
-
-
-
-
-
-
-
 path = 'map.txt'
 with open(path) as fp:
    line = fp.readline()
